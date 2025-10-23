@@ -95,8 +95,6 @@ Used the least-privilege principle and removed the runner after testing:
 
 Use dedicated VMs or containers for self-hosted runners, isolated from personal environments.
 
-Enable automatic scaling using GitHub Actions Runner Controller (ARC) on Kubernetes.
-
 Secure secrets using GitHub Encrypted Secrets or HashiCorp Vault.
 
 Implement CI/CD monitoring tools (like Prometheus + Grafana) to track runner health and job performance.
